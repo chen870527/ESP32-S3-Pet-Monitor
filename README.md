@@ -24,7 +24,7 @@ We used a **Dual-core** setup here. Core 0 handles the camera and streaming, whi
 
 ---
 
-## Why this project is different
+## Key Features
 
 *   **No more lagging**: Thanks to the dual-core and FreeRTOS setup, the camera never stops even during cloud uploads.
 *   **Triple Buffering**: We utilized 8MB of PSRAM to buffer 3 frames at a time. This prevents storage and streaming tasks from fighting over the same data.
